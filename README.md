@@ -64,6 +64,7 @@ __Down load the zip file and extract it to the specific location you want to run
 Install all the libraries that have been listed about then run the command below 
 <br>
 ```sudo python3 vision.py```
+<br>
 Open another terminal and run 
 ```sudo python3 app.py```
 <br>
