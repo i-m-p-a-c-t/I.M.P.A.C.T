@@ -18,7 +18,8 @@ __Components__
   * Accelerometer
   * Pi Camera
   * Naroband
-  <br>
+  
+# Techonology
 __Technologies__
   * Microsoft Vision API (provided inside the code)
   * Microsoft Bing Map API (provided inside the code)
