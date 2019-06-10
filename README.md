@@ -40,7 +40,7 @@ __List of all the languages that have been implemented in the project__
  * Sass
  * Jquery
 # Llibrary
-__ python libary that needs to run the program__
+__python libary that needs to run the program__
  * Flask
  * pymysql
  * hashlib
