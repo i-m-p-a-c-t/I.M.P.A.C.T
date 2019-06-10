@@ -66,6 +66,7 @@ Install all the libraries that have been listed about then run the command below
 ```sudo python3 vision.py```
 <br>
 Open another terminal and run 
+<br>
 ```sudo python3 app.py```
 <br>
 Install Phpmyadmin on raspbian and then import the impact SQL file inside the Phpmyadmin then start copy the local IP address that have been provided in the terminal, paste the address to the web browser. Start registering for an account and then login to start using the application.
