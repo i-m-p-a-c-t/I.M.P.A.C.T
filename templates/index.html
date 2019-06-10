@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>I.M.P.A.C.T</title>
+  <!-- Custom fonts for this template-->
+  <link href="{{ url_for('static', filename='css/landingpageCss.css') }}" rel="stylesheet" type="text/css">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  <!-- Custom styles for this template-->
+  <link rel="SHORTCUT ICON"
+       href="{{ url_for('static', filename='img/logo.png') }}">
+</head>
+<body>
+  <!---"img/logo.png"-->
+  <div class = "container">
+    <a href = "/"><img class = "logo" src ="{{ url_for('static', filename='img/logo.png') }}"/></a>
+    <div class = "text-center welcome-text">
+      <h1>I.M.P.A.C.T</h1>
+    </div>
+    <div class="row text-center">
+        <div class="col-sm-6">
+            <img src="{{ url_for('static', filename='img/support.png') }}" alt="" class="img-responsive" />
+        </div>
+        <div class="col-sm-6">
+          <p class="text-center description">Subscribe to I.M.P.A.C.T to get more update about our project. Our mission is to ensure the safety of our customers.</p>
+          <form>
+            <input class = "form-control" type = "email" name = "Email" placeholder="Enter your email" required>
+            <button type = "submit" class="subscribe">Subscribe</button>
+          </form>
+          <ul class = "list-unstyled list-inline social">
+            <li class = "list-inline-item"><a href=""><i class="fa fa-facebook"></i></a></li>
+            <li class = "list-inline-item"><a href=""><i class="fa fa-instagram"></i></a></li>
+            <li class = "list-inline-item"><a href=""><i class="fa fa-twitter"></i></a></li>
+            <li class = "list-inline-item"><a href=""><i class="fa fa-github"></i></a></li>
+            <li class = "list-inline-item"><a href="/register"><i class="fa fa-home"></i></a></li>
+            <li class = "list-inline-item"><a href="/login"><i class="fa fa-sign-in"></i></a></li>
+          </ul>
+        </div>
+    </div>
+</div>
+</body>

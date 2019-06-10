@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<title>
+	Recording page
+	</title>
+	<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+<link rel="stylesheet" type="text/css" href="recording.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+<body>
+	<div class = "box">
+		<h2>Please recording your vocie</h2>
+		<div class = "instruction">
+			<div class = "record">
+				<img src = "record.png">
+	  	 		<button id="recordButton">Record</button>
+			</div>
+			<div class = "pause">
+				<h3 class = "text">Please pause if you need time</h3>
+	  			<button id="pauseButton" class = "resume" disabled>Pause</button>
+				<h4 class = "text2">When you are read</h4>
+			</div>
+			<div class = "stop">
+				<img src = "stop.png">
+				<button id="stopButton" disabled>Stop</button>
+			</div>
+
+		</div>
+		  <div id="formats">Format: start recording to see sample rate</div>
+      	<h3>Recordings</h3>
+      	<ol id="recordingsList"></ol>
+
+	</div> 
+
+	<script src="https://cdn.rawgit.com/mattdiamond/Recorderjs/08e7abd9/dist/recorder.js"></script>
+  	<script src="js/app.js"></script>
+</body>
+</html>
